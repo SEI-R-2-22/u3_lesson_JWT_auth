@@ -1,30 +1,8 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) SOFTWARE ENGINEERING IMMERSIVE
-
 # Authentication
 
 ![](https://i.imgur.com/MkAOKAZ.gif)
 
-## Prerequisites
-
-- Express & React CRUD
-
-## Learning Objectives
-
-By the end of this, students should be able to:
-
-- Understand how to store passwords (we don't)
-- Implement JWT Authentication
-
-## Framing (5min)
-
-Turn & Talk with your neighbor and answer the following:
-
-- What is Authentication?
-- What is Authorization?
-
-**Bonus**: What is the difference between [hashing vs encrypting](https://gcn.com/articles/2013/12/02/hashing-vs-encryption.aspx)?
-
-## Introduction
+## Overview
 
 What is Authentication? Well it's the hardest topic in our curriculum. Ok joke aside, what is Auth?
 
@@ -34,7 +12,10 @@ Authentication proves that the user is who they say they are. Authentication giv
 
 The concept is a user can sign up and sign in aka authenticate. Then for specific resources we can check if they're authenticated - if they are, then allow them to interact with the resource otherwise, tell them they do not have access.
 
-Before we get into implementation we need to go over a few key concepts.
+## Objectives
+
+- Understand how to store passwords (we don't)
+- Implement JWT Authentication
 
 ## Concepts
 
@@ -143,11 +124,13 @@ Let's look at Sign Up first!
 5. If the token is legit, we make the update in the database
 6. We respond with the updated item
 
-## Conclusion
+## Recap
 
 Authentication is found in nearly every application we interact with. In this lesson we learned how to handroll our own authentication system. This has given us a thorough understanding of how authentication works. However, because authentication is what protects our application from unauthorized access it is crucial we use highly secure authentication system. We highly recommend, in real-world applications to use industry vetted third-party authentication libraries.
 
-✊ **Fist to Five**
+## Resources
 
--- Happy Coding :)
-
+- [Bcrypt](https://github.com/kelektiv/node.bcrypt.js#readme)
+- [Json Web Token](https://github.com/auth0/node-jsonwebtoken)
+- [Jwt.io](https://jwt.io/)
+- [Authorization and Authentication](https://medium.com/@audira98/authorization-and-authentication-cd0a7c994278#:~:text=Authentication%20means%20confirming%20your%20own,what%20you%20have%20access%20to.)
