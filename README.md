@@ -120,7 +120,7 @@ Let's look at Sign Up first!
 1. The user fills out the update form to edit a specific item
 2. In our React app we check if there is a token in localStorage
 3. We grab the token in localStorage and construct an axios PUT request with the token in the `header` of the request and the `item` object (with the modifications) in the body of the request
-4. On our Express server we parse the `header` to grabe the token. We verify if the token is the original token using the `jwt.verify` method and the unique `TOKEN_KEY`
+4. On our Express server we parse the `header` to grab the token. We verify if the token is the original token using the `jwt.verify` method and the unique `TOKEN_KEY`
 5. If the token is legit, we make the update in the database
 6. We respond with the updated item
 
