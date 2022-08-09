@@ -4,9 +4,9 @@
 
 ## Overview
 
-What is Authentication? Well it's the hardest topic in our curriculum. But seriously, what is Auth?
+What is Authentication? Well, it's the hardest topic in our curriculum. But seriously, what is Auth?
 
-We have learned how to create full-stack applications. There is a problem though. Often we want to limit what a user has access to. So how do we handle this? Welcome.. Authentication.
+We have learned how to create full-stack applications. There is a problem though. Often we want to limit what a user has access to. So how do we handle this? Enter.. Authentication.
 
 Authentication proves that the user is who they say they are. Authentication gives identity. And with that "identity" we can "authorize" the user to access whatever resources we would like to allow them to access.
 
