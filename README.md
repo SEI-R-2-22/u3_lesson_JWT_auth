@@ -62,7 +62,7 @@ The JWT Secret is what we use to sign the JWT and make it unique. The idea is th
 
 The payload is whatever data we choose to send within the JWT. Keep in mind this data can be seen by anyone who obtains the JWT so refrain from adding sensitive information e.g. passwords. Also, make sure to use HTTPS so the JWT is encrypted so the data can only be seen between client and server.
 
-> The payload is typically where we set the "cliams" for the user, or in other words, who the user is and what they're allowed to do e.g. user id, username or email, user role
+> The payload is typically where we set the "claims" for the user, or in other words, who the user is and what they're allowed to do e.g. user id, username or email, user role
 
 ### JWT Signing
 
